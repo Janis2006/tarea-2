@@ -3,7 +3,6 @@
 dato el monto de la compra del cliente, calcule lo que el cliente debe pagar//
 
 #include<stdio.h> 
-#include<math.h>
 int main()
     {
        float electrodomestico,pago,d=0.08; 
