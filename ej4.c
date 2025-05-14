@@ -2,7 +2,6 @@
 a una cierta tasa de inter ́es mensual. Se obtendra la cantidad que obtendra al finalizar el mes//
 
 #include<stdio.h> 
-#include<math.h>
 int main()
     {
        float i,t=0.15,r; 
