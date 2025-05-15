@@ -2,7 +2,6 @@
 cu ́antos de ellos son positivos, negativos o nulos.//
 
 #include <stdio.h>
-
 int main() 
 {
     int numero;
@@ -19,16 +18,18 @@ int main()
         {
             positivos=positivos+1;
         } 
-        else if (numero < 0) 
-        {
-            negativos=negativos+1;
-        } 
         else 
         {
-            nulos=nulos+1;
+            if (numero < 0) 
+            {
+                negativos=negativos+1;
+            } 
+            else 
+            {
+                nulos=nulos+1;
+            }
         }
     }
-
     printf("\nResultados:\n");
     printf("Positivos: %d\n", positivos);
     printf("Negativos: %d\n", negativos);
