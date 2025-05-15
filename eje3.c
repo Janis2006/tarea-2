@@ -2,8 +2,7 @@
 dato una cantidad expresada en dólares, convierta esa cantidad en pesos. Tomar en cuenta que:
 1dolar ↢ 11.96 pesos.//
 
-  #include<stdio.h> 
-#include<math.h>
+#include<stdio.h> 
 int main()
     {
        float d=11.96; 
